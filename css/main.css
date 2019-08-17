@@ -1,0 +1,41 @@
+/* CALL NUMBER */
+.call-number {
+  border: solid black;
+  margin-bottom: 100px;
+}
+
+.clear-number {
+  border: solid black;
+}
+
+/* CLOCK FRAME */
+.clock-frame {
+  background-color: #000;
+  color: #34edbe;
+  border-radius: 50%;
+  height: 400px;
+  position: relative;
+  width: 400px;
+  z-index: 0;
+}
+
+/* INNER CIRCLE */
+.inner-circle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #2e2525;
+  border-radius: 50%;
+  border: solid white;
+  height: 200px;
+  margin: 100px;
+  width: 200px;
+  z-index: 1;
+}
+
+.inner-content {
+  border: solid black;
+  display: inline-block;
+  font-size: 20px;
+  margin: auto;
+}
